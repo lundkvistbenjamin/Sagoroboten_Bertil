@@ -1,0 +1,80 @@
+body {
+    background-image: url("images/background1920x1080.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+nav {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.story-song-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+/* books.html and songs.html */
+
+.songs-books-list-container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.back-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 20px;
+    background-color: rgba(255, 81, 110, 0.7);
+    border-radius: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.list-container ul li {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 81, 110, 0.7);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* player.html */
+
+.player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: rgba(255, 81, 110, 0.7);
+}
